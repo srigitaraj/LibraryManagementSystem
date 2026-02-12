@@ -1,0 +1,11 @@
+CREATE TABLE Author_Tbl(
+Author_code NUMBER(5) PRIMARY KEY,
+Author_name VARCHAR2(20) NOT NULL,
+Contact_no NUMBER(10)
+);
+
+INSERT INTO Author_Tbl (Author_code, Author_name, Contact_no) VALUES (1, 'RobinSharma',8800799224);
+INSERT INTO Author_Tbl (Author_code, Author_name, Contact_no) VALUES (2, 'R.K.Narayan',9971935000);
+INSERT INTO Author_Tbl (Author_code, Author_name, Contact_no) VALUES (3, 'Paulo Coelho',1234567890);
+
+COMMIT;
